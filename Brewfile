@@ -59,25 +59,20 @@ brew "colima"
 # General Casks
 cask "alt-tab"
 cask "bruno"
+cask "caffeine"
 cask "ghostty"
 cask "google-chrome"
 cask "jetbrains-toolbox"
+cask "libreoffice"
 cask "microsoft-teams"
 cask "openusage"
 cask "rectangle"
 cask "rustdesk"
+cask "slack"
 cask "sourcegit"
 cask "sublime-text"
+cask "the-unarchiver"
 cask "utm"
 cask "vlc"
 cask "vscodium"
 cask "zoom"
-
-# App Store
-mas "Amphetamine", id: 937984704
-mas "Keynote", id: 361285480
-mas "Numbers", id: 361304891
-mas "Pages", id: 361309726
-mas "RunCatNeo", id: 6757801838
-mas "TheUnarchiver", id: 425424353
-mas "Xcode", id: 497799835

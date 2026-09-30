@@ -51,24 +51,9 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-# Cargo
-export LIBRARY_PATH="$LIBRARY_PATH:$(brew --prefix)/lib"
-export PATH=$PATH:~/.cargo/bin/
-
-# Go Binaries
-export PATH=$PATH:~/go/bin
-
 # uv Binaries
 export PATH=$PATH:~/.local/bin
 
 # Installed Packages
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
-
-# LM Studio
-export PATH="$PATH:~/.lmstudio/bin"
-
-# Docker Desktop
-fpath=($HOME/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
