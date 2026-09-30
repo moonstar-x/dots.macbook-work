@@ -1,0 +1,7 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = moonstar-x
+	email = christian.lopez99@outlook.com
+[credential]
+	helper = osxkeychain

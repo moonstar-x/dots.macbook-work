@@ -1,0 +1,32 @@
+search_mode = "fuzzy"
+filter_mode = "global"
+workspaces = true
+
+search_mode_shell_up_key_binding = "prefix"
+filter_mode_shell_up_key_binding = "session"
+
+style = "full"
+inline-height = 20
+show_preview = true
+max_preview_height = 6
+show_help = true
+show_tabs = true
+
+enter_accept = true
+exit_mode = "return-original"
+keymap_mode = "auto"
+
+store_failed = true
+secrets_filter = true
+
+[search]
+filters = ["global", "workspace", "directory", "host", "session"]
+
+[ui]
+columns = ["exit", "duration", "time", "command"]
+
+[keys]
+scroll_exits = false
+
+[theme]
+name = "catppuccin-macchiato-mauve"

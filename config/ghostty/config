@@ -1,0 +1,17 @@
+font-family = JetBrainsMono NFM Regular
+font-size = 13
+theme = Catppuccin Macchiato
+cursor-style = block
+background-opacity = 1
+background-blur = false
+
+split-divider-color = #EEEEEE
+unfocused-split-opacity = 0.97
+
+window-height = 25
+window-width = 80
+window-new-tab-position = end
+quick-terminal-position = center
+quick-terminal-size = 800px,600px
+
+keybind = cmd+shift+t=toggle_quick_terminal
