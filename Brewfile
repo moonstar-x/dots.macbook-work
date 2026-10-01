@@ -60,6 +60,7 @@ brew "colima"
 brew "awscli"
 
 # General Casks
+cask "adobe-creative-cloud"
 cask "alt-tab"
 cask "bruno"
 cask "caffeine"
