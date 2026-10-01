@@ -32,6 +32,7 @@ brew "fastfetch"
 
 # Development Tools
 brew "cmake"
+brew "libpq"
 
 # CLIs
 brew "ffmpeg"
@@ -54,6 +55,7 @@ cask "claude-code"
 # Docker
 brew "docker"
 brew "docker-compose"
+brew "docker-buildx"
 brew "colima"
 
 # Cloud
