@@ -56,12 +56,16 @@ brew "docker"
 brew "docker-compose"
 brew "colima"
 
+# Cloud
+brew "awscli"
+
 # General Casks
 cask "alt-tab"
 cask "bruno"
 cask "caffeine"
 cask "ghostty"
 cask "google-chrome"
+cask "hubstaff"
 cask "jetbrains-toolbox"
 cask "libreoffice"
 cask "microsoft-teams"
